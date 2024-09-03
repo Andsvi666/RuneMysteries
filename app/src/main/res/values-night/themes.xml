@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Click_N_Find" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="backgroundImage">@raw/night_mode_background</item>
+        <item name="colorPrimary">@color/darkModeMainColor</item>
+        <item name="android:textColor">@color/darkModeTextColor</item>
+    </style>
+
+    <style name="ButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/darkModeTextColor</item>
+        <item name="android:background">@drawable/rounded_button</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="lightModeMainColor">#2CD8CA</color>
+    <color name="darkModeMainColor">#4B07C5</color>
+    <color name="lightModeTextColor">#751212</color>
+    <color name="darkModeTextColor">#FF9800</color>
+</resources>

@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_margin="15dp"
+    android:padding="16dp"
+    android:background="@drawable/rounded_corners_reverse"
+    android:clipToOutline="true">
+
+    <!-- Add your UI elements here, such as TextViews, Buttons, etc. -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_results_title"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="?attr/colorPrimary"
+        android:paddingBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/scoreTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_current_score"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:textColor="?attr/colorPrimary"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/timeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_current_time"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:textColor="?attr/colorPrimary"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/buttonReturnToMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="@string/button_return_menu"
+        android:textSize="20sp"
+        style="@style/ButtonStyle"/>
+
+    <!-- Add more UI elements as needed -->
+
+</LinearLayout>

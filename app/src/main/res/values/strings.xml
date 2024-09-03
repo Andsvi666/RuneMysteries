@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Click-n-Find</string>
+    <string name="default_web_client_id">760670248864-97826pa7lbab5aia7h9l5d6374c02k3t.apps.googleusercontent.com</string>
+    <string name="button_login">Enter the Game</string>
+    <string name="button_logout">Logout</string>
+    <string name="button_play">Play</string>
+    <string name="button_info">Info</string>
+    <string name="button_return_menu">Return to Menu</string>
+    <string name="button_start_game">Start</string>
+    <string name="text_title">Rune Mysteries</string>
+    <string name="text_current_time">Time: %1$d.%2$d</string>
+    <string name="text_current_score">Score: %1$d</string>
+    <string name="text_test">test123456</string>
+    <string name="text_results_title">Congratulations!</string>
+    <string name="switch_modes">Switch mode</string>
+    <string name="info_title_1">What is Rune Mysteries?</string>
+    <string name="info_text_1">Rune Mysteries is a classic game that tests players memory and logic skills. Basic idea of the game is to find pairs of same image within hidden images. Games ends when all image pairs are found. Game is using various Runes as images from Old School Runescape</string>
+    <string name="info_title_2">How to play?</string>
+    <string name="info_text_2">When player starts game 20 hidden cards will be on screen. You can click them to be revealed, but only 2 at same time can be revealed, after second card is clicked they both are turned over again. Goal is to memorize where cards are and click on 2 that have same image</string>
+    <string name="info_title_3">Game results</string>
+    <string name="info_text_3">"This is time based game so once all cards are revealed timer will stop and reward you certain amount of points. The longer it takes you to finish up the less points you are going to receive"</string>
+    <string name="info_title_4">Player metrics</string>
+    <string name="info_text_4">Each user has 4 metrics that can be seen in menu. Games - displays number of games played, Points - total points, Seconds - total seconds played, but most important is Record this displays your best time from all games</string>
+    <string name="user_info_1">Seconds: %1$d</string>
+    <string name="user_info_2">Points: %1$d</string>
+    <string name="user_info_3">Games: %1$d</string>
+    <string name="user_info_4">Record: %1$d</string>
+</resources>

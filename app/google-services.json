@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "760670248864",
+    "firebase_url": "https://blockdoku-fded6-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "blockdoku-fded6",
+    "storage_bucket": "blockdoku-fded6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:760670248864:android:29fc7efbab10f1e6fa4ec5",
+        "android_client_info": {
+          "package_name": "com.example.click_n_find"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "760670248864-uhqla8uhh92tgp4irnkhfrghi9o3lvtq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.click_n_find",
+            "certificate_hash": "c88740791d29c8bb1621119c4fca64f2cdfa4563"
+          }
+        },
+        {
+          "client_id": "760670248864-u86io8fpkbkmqo8ei1nk1oa8ns99v7ph.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfAFvdEyUwkpUE8Z2xINuxY4z_Vm1eZ38"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "760670248864-u86io8fpkbkmqo8ei1nk1oa8ns99v7ph.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

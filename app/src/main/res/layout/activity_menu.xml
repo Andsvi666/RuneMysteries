@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="?attr/backgroundImage">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center"
+        android:text="@string/text_title"
+        android:textSize="90sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/runescape_uf"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/buttonPlay"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_margin="16dp"
+        android:text="@string/button_play"
+        android:textSize="20sp"
+        style="@style/ButtonStyle"/>
+
+    <Button
+        android:id="@+id/buttonInfo"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_margin="16dp"
+        android:text="@string/button_info"
+        android:textSize="20sp"
+        style="@style/ButtonStyle"/>
+
+    <Button
+        android:id="@+id/buttonLogOff"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_margin="16dp"
+        android:text="@string/button_logout"
+        android:textSize="20sp"
+        style="@style/ButtonStyle"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corners"
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="horizontal">
+
+        <!-- Profile Picture -->
+        <ImageView
+            android:id="@+id/profileImageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="10dp"
+            android:scaleType="centerCrop" />
+
+        <!-- Right Side Layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_marginStart="16dp"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <!-- User Name -->
+
+            <!-- Two Columns -->
+            <TextView
+                android:id="@+id/profileTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:text="@string/text_test" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal"
+                android:background="@drawable/border"
+                android:padding="10dp">
+
+                <!-- First Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:id="@+id/secondsTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="@string/text_test"
+                        android:textSize="14sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:id="@+id/pointsTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="@string/text_test"
+                        android:textSize="14sp"
+                        android:textStyle="italic" />
+                </LinearLayout>
+
+                <!-- Second Column -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/recordTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="@string/text_test"
+                        android:textSize="14sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:id="@+id/totalPlayedTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="@string/text_test"
+                        android:textSize="14sp"
+                        android:textStyle="italic" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!-- End Two Columns -->
+
+        </LinearLayout>
+        <!-- End Right Side Layout -->
+
+    </LinearLayout>
+
+
+</LinearLayout>
